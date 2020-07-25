@@ -1,0 +1,6 @@
+/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/install.dir
+/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/uninstall.dir
+/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/ALL_BUILD.dir
+/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/ZERO_CHECK.dir
+/data/work/opengltest/glfw-3.3.2/build/src/CMakeFiles/install.dir
+/data/work/opengltest/glfw-3.3.2/build/src/CMakeFiles/glfw.dir
