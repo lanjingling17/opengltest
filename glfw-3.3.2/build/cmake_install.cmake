@@ -78,6 +78,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/data/work/opengltest/glfw-3.3.2/build/src/cmake_install.cmake")
+  include("/data/work/opengltest/glfw-3.3.2/build/examples/cmake_install.cmake")
+  include("/data/work/opengltest/glfw-3.3.2/build/tests/cmake_install.cmake")
 
 endif()
 

@@ -23,6 +23,7 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Cont
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Compiler/Clang.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Compiler/GNU.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/FindDoxygen.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/FindPackageMessage.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/FindPkgConfig.cmake))
@@ -41,10 +42,12 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/build/CMakeFiles/3.16.0/CMakeCCompiler.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/build/CMakeFiles/3.16.0/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/cmake_uninstall.cmake.in))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/examples/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/src/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/src/glfw3.pc.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/src/glfw3Config.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/src/glfw_config.h.in))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /data/work/opengltest/glfw-3.3.2/tests/CMakeLists.txt))
 
 /data/work/opengltest/glfw-3.3.2/build/CMakeFiles/cmake.check_cache: $(TARGETS)
 	/Applications/CMake.app/Contents/bin/cmake -H/data/work/opengltest/glfw-3.3.2 -B/data/work/opengltest/glfw-3.3.2/build
