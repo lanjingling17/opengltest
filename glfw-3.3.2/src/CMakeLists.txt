@@ -4,8 +4,9 @@ set(common_HEADERS internal.h mappings.h
                    "${GLFW_SOURCE_DIR}/include/GLFW/glfw3.h"
                    "${GLFW_SOURCE_DIR}/include/GLFW/glfw3native.h")
 set(common_SOURCES context.c init.c input.c monitor.c vulkan.c window.c)
-
+set(_GLFW_COCOA 1)
 if (_GLFW_COCOA)
+    message(STATUS "Using _GLFW_COCOA _GLFW_COCOA 1")
     set(glfw_HEADERS ${common_HEADERS} cocoa_platform.h cocoa_joystick.h
                      posix_thread.h nsgl_context.h egl_context.h osmesa_context.h)
     set(glfw_SOURCES ${common_SOURCES} cocoa_init.m cocoa_joystick.m
@@ -61,6 +62,7 @@ elseif (_GLFW_OSMESA)
     set(glfw_SOURCES ${common_SOURCES} null_init.c null_monitor.c null_window.c
                      null_joystick.c posix_time.c posix_thread.c osmesa_context.c)
 endif()
+message(STATUS "Using _GLFW_COCOA _GLFW_COCOA 2")
 
 if (_GLFW_X11 OR _GLFW_WAYLAND)
     if ("${CMAKE_SYSTEM_NAME}" STREQUAL "Linux")

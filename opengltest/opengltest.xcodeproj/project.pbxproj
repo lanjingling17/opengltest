@@ -13,8 +13,8 @@
 		6814F7C424CC2FFF003038FC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C324CC2FFF003038FC /* IOKit.framework */; };
 		6814F7C624CC300A003038FC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C524CC300A003038FC /* CoreVideo.framework */; };
 		6814F7C824CC316B003038FC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C724CC316B003038FC /* GLUT.framework */; };
-		6814F7CB24CC35A8003038FC /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681E2FC424CC2CAD00CA45C5 /* libglfw3.a */; };
 		681E2FB524CC2C9A00CA45C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 681E2FB424CC2C9A00CA45C5 /* main.cpp */; };
+		6876B93B24CF1931003807C0 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681E2FC424CC2CAD00CA45C5 /* libglfw3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +262,7 @@
 		681E2FB124CC2C9A00CA45C5 /* opengltest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengltest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681E2FB424CC2C9A00CA45C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GLFW.xcodeproj; path = "../glfw-3.3.2/build/GLFW.xcodeproj"; sourceTree = "<group>"; };
+		6876B93824CF0E32003807C0 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,8 +270,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6876B93B24CF1931003807C0 /* libglfw3.a in Frameworks */,
 				6814F7C824CC316B003038FC /* GLUT.framework in Frameworks */,
-				6814F7CB24CC35A8003038FC /* libglfw3.a in Frameworks */,
 				6814F7C424CC2FFF003038FC /* IOKit.framework in Frameworks */,
 				6814F7C624CC300A003038FC /* CoreVideo.framework in Frameworks */,
 				6814F7C024CC2F9F003038FC /* OpenGL.framework in Frameworks */,
@@ -385,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				6814F7C924CC31B2003038FC /* libglfw3.a */,
+				6876B93824CF0E32003807C0 /* libglfw3.a */,
 				6814F7C724CC316B003038FC /* GLUT.framework */,
 				6814F7C524CC300A003038FC /* CoreVideo.framework */,
 				6814F7C324CC2FFF003038FC /* IOKit.framework */,
@@ -815,12 +817,22 @@
 		681E2FB924CC2C9A00CA45C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/opengltest/include",
 					"$(PROJECT_DIR)/../glfw-3.3.2/include",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = /usr/lib/libz.dylib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "x86_64 i386";
 			};
@@ -829,12 +841,18 @@
 		681E2FBA24CC2C9A00CA45C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/opengltest/include",
 					"$(PROJECT_DIR)/../glfw-3.3.2/include",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = /usr/lib/libz.dylib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "x86_64 i386";
 			};

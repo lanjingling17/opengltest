@@ -151,7 +151,7 @@ elseif (UNIX)
 else()
     message(FATAL_ERROR "No supported platform was detected")
 endif()
-
+set(_GLFW_COCOA 1)
 #--------------------------------------------------------------------
 # Find and add Unix math and time libraries
 #--------------------------------------------------------------------

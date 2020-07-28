@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/ZERO_CHECK
+	/Users/playcrab/Downloads/glfw-3.3.2/build/CMakeFiles/ZERO_CHECK
 
 
-/data/work/opengltest/glfw-3.3.2/build/CMakeFiles/ZERO_CHECK: 
+/Users/playcrab/Downloads/glfw-3.3.2/build/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /data/work/opengltest/glfw-3.3.2/build/CMakeScripts/ReRunCMake.make
+	make -f /Users/playcrab/Downloads/glfw-3.3.2/build/CMakeScripts/ReRunCMake.make
