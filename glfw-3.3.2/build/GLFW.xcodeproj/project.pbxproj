@@ -58,65 +58,22 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01996AAA74F245A494F1D0A2 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 70A933AFE63146959952513D /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.m */; };
-		0A97D39E544B4908A299D1B9 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 6929FB402B5D495CB50002FB /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.c */; };
-		0B5AB8326B0A479DA5BF29E0 /* /data/work/opengltest/glfw-3.3.2/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 6FDBE124AAB240B6ACC8334D /* /data/work/opengltest/glfw-3.3.2/src/mappings.h */; };
-		15022B08C7EA4C329177EAC0 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 5B5EE3839F6D4B52B31E467F /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		1EDA7E43678A43AAB0A31416 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 9B7F832C5E234C69A9E7C695 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3.h */; };
-		27F6FE898C2946228067C424 /* /data/work/opengltest/glfw-3.3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = BD52B59DE5774445893D7CDD /* /data/work/opengltest/glfw-3.3.2/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		3988D3F09E7A4E268B371B49 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 9061ACB0DE0040318D3905F9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_monitor.m */; };
-		4397E5CD0BF24F3AA1CD7EA7 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 33649DC14EFE4FF283767445 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.h */; };
-		4CEDDE5BC2FB4FDEA19B2F71 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 93E64CEECF55402C954AF313 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.h */; };
-		53432B3EC72D45BE9153CFB6 /* /data/work/opengltest/glfw-3.3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 56D15A6852CC4E7FAE27E9CF /* /data/work/opengltest/glfw-3.3.2/src/internal.h */; };
-		535CCF5C87914F1A94237456 /* /data/work/opengltest/glfw-3.3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 52A5CD88FD304D25A130B781 /* /data/work/opengltest/glfw-3.3.2/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		53C507DAEF894D5FA27A76D8 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = F79C80780BCA410495EAA28F /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.h */; };
-		6746EC56942743789D8A7D10 /* /data/work/opengltest/glfw-3.3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = D4892A87E81641B0B941DB5D /* /data/work/opengltest/glfw-3.3.2/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		704B2E31FDB645F982DE6B99 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 5113E3B1FFF949328CC59AF9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_platform.h */; };
-		930B79816B1C443EBC066487 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = C729C0CD719642549423A95A /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.m */; };
-		95AFD057D77147EF86CED79B /* /data/work/opengltest/glfw-3.3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F4393225729F48A68EF9F9C4 /* /data/work/opengltest/glfw-3.3.2/src/CMakeLists.txt */; };
-		978E0F5A7D884CC4995471EB /* /data/work/opengltest/glfw-3.3.2/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 28AF6240CFB247BAB06B0DE5 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		A591D3D2DFEA4E0FB0F16CE3 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = FC31F4F479674A509F545861 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.h */; };
-		B07FDB8E74BD40158F165ECD /* /data/work/opengltest/glfw-3.3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = AC309655080C433893A56172 /* /data/work/opengltest/glfw-3.3.2/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		C1821C8B50694A19A329FEFA /* /data/work/opengltest/glfw-3.3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = C96CEDD5480D431CBA57C10C /* /data/work/opengltest/glfw-3.3.2/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
-		C230D136E3454D59B08C77C2 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = C3D7AD26ABCD4E0D9884C447 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_window.m */; };
-		CA3D8F224390423A9CFFE93F /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 065A881E4A924F8E98916A19 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3native.h */; };
-		D4E79D12C489456481DBBD80 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 09BBC8CC283B445EAEA946F7 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.h */; };
-		E0EA07C595FF45BCB4E1C9D0 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 0B80716C5B4540B48EBE4C5E /* /data/work/opengltest/glfw-3.3.2/src/cocoa_init.m */; };
-		E743E8B456324FC080D852CF /* /data/work/opengltest/glfw-3.3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 006D49A2FCE54A2F831A2E42 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_time.c */; };
-		EF7057D0171A4D45A0C2CB28 /* /Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 64CC5F697B8D4AC59095557F /* /Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h */; };
-		F2B153E70B0B43EE9D91B364 /* /data/work/opengltest/glfw-3.3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = A6E3E6D0052148E88B8CB115 /* /data/work/opengltest/glfw-3.3.2/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		01996AAA74F245A494F1D0A2 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A933AFE63146959952513D /* nsgl_context.m */; };
+		0A97D39E544B4908A299D1B9 /* posix_thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 6929FB402B5D495CB50002FB /* posix_thread.c */; };
+		15022B08C7EA4C329177EAC0 /* osmesa_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EE3839F6D4B52B31E467F /* osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		27F6FE898C2946228067C424 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = BD52B59DE5774445893D7CDD /* input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		3988D3F09E7A4E268B371B49 /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9061ACB0DE0040318D3905F9 /* cocoa_monitor.m */; };
+		535CCF5C87914F1A94237456 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 52A5CD88FD304D25A130B781 /* vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		6746EC56942743789D8A7D10 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = D4892A87E81641B0B941DB5D /* context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		930B79816B1C443EBC066487 /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = C729C0CD719642549423A95A /* cocoa_joystick.m */; };
+		978E0F5A7D884CC4995471EB /* egl_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 28AF6240CFB247BAB06B0DE5 /* egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		B07FDB8E74BD40158F165ECD /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = AC309655080C433893A56172 /* monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		C1821C8B50694A19A329FEFA /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = C96CEDD5480D431CBA57C10C /* window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		C230D136E3454D59B08C77C2 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D7AD26ABCD4E0D9884C447 /* cocoa_window.m */; };
+		E0EA07C595FF45BCB4E1C9D0 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B80716C5B4540B48EBE4C5E /* cocoa_init.m */; };
+		E743E8B456324FC080D852CF /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 006D49A2FCE54A2F831A2E42 /* cocoa_time.c */; };
+		F2B153E70B0B43EE9D91B364 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = A6E3E6D0052148E88B8CB115 /* init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		62FB1CA14B284F60BAF61E1E /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		7E605C7DF2294638918BE9E9 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		BF3F7FC4098443C9849986E2 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		E3E39B8FD8C04E4AB198A254 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		2E8ABDB1EA154BC0820E7F7A /* PBXContainerItemProxy */ = {
@@ -157,36 +114,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006D49A2FCE54A2F831A2E42 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		065A881E4A924F8E98916A19 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		09BBC8CC283B445EAEA946F7 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
-		0B80716C5B4540B48EBE4C5E /* /data/work/opengltest/glfw-3.3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		28AF6240CFB247BAB06B0DE5 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		33649DC14EFE4FF283767445 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
-		5113E3B1FFF949328CC59AF9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		52A5CD88FD304D25A130B781 /* /data/work/opengltest/glfw-3.3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		56D15A6852CC4E7FAE27E9CF /* /data/work/opengltest/glfw-3.3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		5B5EE3839F6D4B52B31E467F /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		64CC5F697B8D4AC59095557F /* /Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../../../Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
-		6929FB402B5D495CB50002FB /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		6E5D8DCAFD5642AC947269E9 /* /data/work/opengltest/glfw-3.3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		6FDBE124AAB240B6ACC8334D /* /data/work/opengltest/glfw-3.3.2/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
-		700879994C3549F5B2E82C05 /* /data/work/opengltest/glfw-3.3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		70A933AFE63146959952513D /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		759B809B436D45489078546F /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9061ACB0DE0040318D3905F9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		93E64CEECF55402C954AF313 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		9B7F832C5E234C69A9E7C695 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		A6E3E6D0052148E88B8CB115 /* /data/work/opengltest/glfw-3.3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		AC309655080C433893A56172 /* /data/work/opengltest/glfw-3.3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		BD52B59DE5774445893D7CDD /* /data/work/opengltest/glfw-3.3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		C3D7AD26ABCD4E0D9884C447 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		C729C0CD719642549423A95A /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		C96CEDD5480D431CBA57C10C /* /data/work/opengltest/glfw-3.3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		D4892A87E81641B0B941DB5D /* /data/work/opengltest/glfw-3.3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		F4393225729F48A68EF9F9C4 /* /data/work/opengltest/glfw-3.3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F79C80780BCA410495EAA28F /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		FC31F4F479674A509F545861 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		006D49A2FCE54A2F831A2E42 /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		065A881E4A924F8E98916A19 /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		09BBC8CC283B445EAEA946F7 /* osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		0B80716C5B4540B48EBE4C5E /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		28AF6240CFB247BAB06B0DE5 /* egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		33649DC14EFE4FF283767445 /* egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		5113E3B1FFF949328CC59AF9 /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		52A5CD88FD304D25A130B781 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		56D15A6852CC4E7FAE27E9CF /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		5B5EE3839F6D4B52B31E467F /* osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		64CC5F697B8D4AC59095557F /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../../../Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		6929FB402B5D495CB50002FB /* posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		6E5D8DCAFD5642AC947269E9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6FDBE124AAB240B6ACC8334D /* mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		700879994C3549F5B2E82C05 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		70A933AFE63146959952513D /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		759B809B436D45489078546F /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9061ACB0DE0040318D3905F9 /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		93E64CEECF55402C954AF313 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		9B7F832C5E234C69A9E7C695 /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		A6E3E6D0052148E88B8CB115 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		AC309655080C433893A56172 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		BD52B59DE5774445893D7CDD /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		C3D7AD26ABCD4E0D9884C447 /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		C729C0CD719642549423A95A /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		C96CEDD5480D431CBA57C10C /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		D4892A87E81641B0B941DB5D /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		F4393225729F48A68EF9F9C4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F79C80780BCA410495EAA28F /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		FC31F4F479674A509F545861 /* posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -194,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				83A1707EF3C54A88B727B143 /* CMake Rules */,
-				6E5D8DCAFD5642AC947269E9 /* /data/work/opengltest/glfw-3.3.2/CMakeLists.txt */,
+				6E5D8DCAFD5642AC947269E9 /* CMakeLists.txt */,
 			);
 			name = uninstall;
 			sourceTree = "<group>";
@@ -202,21 +159,21 @@
 		72CFFEC14178490B81C5FC1B /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				0B80716C5B4540B48EBE4C5E /* /data/work/opengltest/glfw-3.3.2/src/cocoa_init.m */,
-				C729C0CD719642549423A95A /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.m */,
-				9061ACB0DE0040318D3905F9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_monitor.m */,
-				006D49A2FCE54A2F831A2E42 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_time.c */,
-				C3D7AD26ABCD4E0D9884C447 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_window.m */,
-				D4892A87E81641B0B941DB5D /* /data/work/opengltest/glfw-3.3.2/src/context.c */,
-				28AF6240CFB247BAB06B0DE5 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.c */,
-				A6E3E6D0052148E88B8CB115 /* /data/work/opengltest/glfw-3.3.2/src/init.c */,
-				BD52B59DE5774445893D7CDD /* /data/work/opengltest/glfw-3.3.2/src/input.c */,
-				AC309655080C433893A56172 /* /data/work/opengltest/glfw-3.3.2/src/monitor.c */,
-				70A933AFE63146959952513D /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.m */,
-				5B5EE3839F6D4B52B31E467F /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.c */,
-				6929FB402B5D495CB50002FB /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.c */,
-				52A5CD88FD304D25A130B781 /* /data/work/opengltest/glfw-3.3.2/src/vulkan.c */,
-				C96CEDD5480D431CBA57C10C /* /data/work/opengltest/glfw-3.3.2/src/window.c */,
+				0B80716C5B4540B48EBE4C5E /* cocoa_init.m */,
+				C729C0CD719642549423A95A /* cocoa_joystick.m */,
+				9061ACB0DE0040318D3905F9 /* cocoa_monitor.m */,
+				006D49A2FCE54A2F831A2E42 /* cocoa_time.c */,
+				C3D7AD26ABCD4E0D9884C447 /* cocoa_window.m */,
+				D4892A87E81641B0B941DB5D /* context.c */,
+				28AF6240CFB247BAB06B0DE5 /* egl_context.c */,
+				A6E3E6D0052148E88B8CB115 /* init.c */,
+				BD52B59DE5774445893D7CDD /* input.c */,
+				AC309655080C433893A56172 /* monitor.c */,
+				70A933AFE63146959952513D /* nsgl_context.m */,
+				5B5EE3839F6D4B52B31E467F /* osmesa_context.c */,
+				6929FB402B5D495CB50002FB /* posix_thread.c */,
+				52A5CD88FD304D25A130B781 /* vulkan.c */,
+				C96CEDD5480D431CBA57C10C /* window.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -224,7 +181,7 @@
 		8229865A087C47AD9A461547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				759B809B436D45489078546F /* glfw */,
+				759B809B436D45489078546F /* libglfw3.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,17 +205,17 @@
 		A2ED9957D2934651B8B925AF /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				64CC5F697B8D4AC59095557F /* /Users/playcrab/Downloads/glfw-3.3.2/build/src/glfw_config.h */,
-				9B7F832C5E234C69A9E7C695 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3.h */,
-				065A881E4A924F8E98916A19 /* /data/work/opengltest/glfw-3.3.2/include/GLFW/glfw3native.h */,
-				F79C80780BCA410495EAA28F /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.h */,
-				5113E3B1FFF949328CC59AF9 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_platform.h */,
-				33649DC14EFE4FF283767445 /* /data/work/opengltest/glfw-3.3.2/src/egl_context.h */,
-				56D15A6852CC4E7FAE27E9CF /* /data/work/opengltest/glfw-3.3.2/src/internal.h */,
-				6FDBE124AAB240B6ACC8334D /* /data/work/opengltest/glfw-3.3.2/src/mappings.h */,
-				93E64CEECF55402C954AF313 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.h */,
-				09BBC8CC283B445EAEA946F7 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.h */,
-				FC31F4F479674A509F545861 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.h */,
+				64CC5F697B8D4AC59095557F /* glfw_config.h */,
+				9B7F832C5E234C69A9E7C695 /* glfw3.h */,
+				065A881E4A924F8E98916A19 /* glfw3native.h */,
+				F79C80780BCA410495EAA28F /* cocoa_joystick.h */,
+				5113E3B1FFF949328CC59AF9 /* cocoa_platform.h */,
+				33649DC14EFE4FF283767445 /* egl_context.h */,
+				56D15A6852CC4E7FAE27E9CF /* internal.h */,
+				6FDBE124AAB240B6ACC8334D /* mappings.h */,
+				93E64CEECF55402C954AF313 /* nsgl_context.h */,
+				09BBC8CC283B445EAEA946F7 /* osmesa_context.h */,
+				FC31F4F479674A509F545861 /* posix_thread.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
@@ -274,7 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				B691FCFFE75C456E87DAA955 /* CMake Rules */,
-				700879994C3549F5B2E82C05 /* /data/work/opengltest/glfw-3.3.2/CMakeLists.txt */,
+				700879994C3549F5B2E82C05 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -284,7 +241,7 @@
 			children = (
 				72CFFEC14178490B81C5FC1B /* Source Files */,
 				A2ED9957D2934651B8B925AF /* Header Files */,
-				F4393225729F48A68EF9F9C4 /* /data/work/opengltest/glfw-3.3.2/src/CMakeLists.txt */,
+				F4393225729F48A68EF9F9C4 /* CMakeLists.txt */,
 			);
 			name = glfw;
 			sourceTree = "<group>";
@@ -314,7 +271,7 @@
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 759B809B436D45489078546F /* glfw */;
+			productReference = 759B809B436D45489078546F /* libglfw3.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -327,16 +284,12 @@
 				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 889D83699F33483EB8FB7100 /* Build configuration list for PBXProject "GLFW" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				62FB1CA14B284F60BAF61E1E /* Debug */,
-				BF3F7FC4098443C9849986E2 /* Release */,
-				E3E39B8FD8C04E4AB198A254 /* MinSizeRel */,
-				7E605C7DF2294638918BE9E9 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = DB9DCA8C887E450D8F40E73C;
 			projectDirPath = "/data/work/opengltest/glfw-3.3.2";
 			projectRoot = "";
@@ -362,21 +315,6 @@
 			shellScript = "make -C /Users/playcrab/Downloads/glfw-3.3.2/build -f /Users/playcrab/Downloads/glfw-3.3.2/build/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		3E4AD12C6A7043C6AF4EC31D = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		419CB34EC3564FFF971E5F75 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,36 +324,6 @@ exit 0";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/playcrab/Downloads/glfw-3.3.2/build -f /Users/playcrab/Downloads/glfw-3.3.2/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		4DCBF3353E7B45C48625B67C = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		61EE8AB94C9444059C80F9B1 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
 			showEnvVarsInLog = 0;
 		};
 		6321F74277B94FC7A6FE2EAE /* CMake PostBuild Rules */ = {
@@ -440,21 +348,6 @@ exit 0";
 			shellScript = "make -C /Users/playcrab/Downloads/glfw-3.3.2/build -f /Users/playcrab/Downloads/glfw-3.3.2/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		E4AF6385E93D43C48C86B640 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -462,21 +355,21 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0EA07C595FF45BCB4E1C9D0 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_init.m */,
-				930B79816B1C443EBC066487 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_joystick.m */,
-				3988D3F09E7A4E268B371B49 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_monitor.m */,
-				E743E8B456324FC080D852CF /* /data/work/opengltest/glfw-3.3.2/src/cocoa_time.c */,
-				C230D136E3454D59B08C77C2 /* /data/work/opengltest/glfw-3.3.2/src/cocoa_window.m */,
-				6746EC56942743789D8A7D10 /* /data/work/opengltest/glfw-3.3.2/src/context.c */,
-				978E0F5A7D884CC4995471EB /* /data/work/opengltest/glfw-3.3.2/src/egl_context.c */,
-				F2B153E70B0B43EE9D91B364 /* /data/work/opengltest/glfw-3.3.2/src/init.c */,
-				27F6FE898C2946228067C424 /* /data/work/opengltest/glfw-3.3.2/src/input.c */,
-				B07FDB8E74BD40158F165ECD /* /data/work/opengltest/glfw-3.3.2/src/monitor.c */,
-				01996AAA74F245A494F1D0A2 /* /data/work/opengltest/glfw-3.3.2/src/nsgl_context.m */,
-				15022B08C7EA4C329177EAC0 /* /data/work/opengltest/glfw-3.3.2/src/osmesa_context.c */,
-				0A97D39E544B4908A299D1B9 /* /data/work/opengltest/glfw-3.3.2/src/posix_thread.c */,
-				535CCF5C87914F1A94237456 /* /data/work/opengltest/glfw-3.3.2/src/vulkan.c */,
-				C1821C8B50694A19A329FEFA /* /data/work/opengltest/glfw-3.3.2/src/window.c */,
+				E0EA07C595FF45BCB4E1C9D0 /* cocoa_init.m in Sources */,
+				930B79816B1C443EBC066487 /* cocoa_joystick.m in Sources */,
+				3988D3F09E7A4E268B371B49 /* cocoa_monitor.m in Sources */,
+				E743E8B456324FC080D852CF /* cocoa_time.c in Sources */,
+				C230D136E3454D59B08C77C2 /* cocoa_window.m in Sources */,
+				6746EC56942743789D8A7D10 /* context.c in Sources */,
+				978E0F5A7D884CC4995471EB /* egl_context.c in Sources */,
+				F2B153E70B0B43EE9D91B364 /* init.c in Sources */,
+				27F6FE898C2946228067C424 /* input.c in Sources */,
+				B07FDB8E74BD40158F165ECD /* monitor.c in Sources */,
+				01996AAA74F245A494F1D0A2 /* nsgl_context.m in Sources */,
+				15022B08C7EA4C329177EAC0 /* osmesa_context.c in Sources */,
+				0A97D39E544B4908A299D1B9 /* posix_thread.c in Sources */,
+				535CCF5C87914F1A94237456 /* vulkan.c in Sources */,
+				C1821C8B50694A19A329FEFA /* window.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,19 +413,36 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/data/work/opengltest/glfw-3.3.2/include","/data/work/opengltest/glfw-3.3.2/src","/Users/playcrab/Downloads/glfw-3.3.2/build/src");
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../glfw-3.3.2/include",
+					"$(PROJECT_DIR)/../glfw-3.3.2/build/src",
+					"$(PROJECT_DIR)/../glfw-3.3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall '-std=gnu99'  ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"'-std=gnu99'",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build/src";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -543,16 +453,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -563,16 +478,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -592,16 +512,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -612,16 +537,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -632,16 +562,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -652,16 +587,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -674,19 +614,36 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/data/work/opengltest/glfw-3.3.2/include","/data/work/opengltest/glfw-3.3.2/src","/Users/playcrab/Downloads/glfw-3.3.2/build/src");
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../glfw-3.3.2/include",
+					"$(PROJECT_DIR)/../glfw-3.3.2/build/src",
+					"$(PROJECT_DIR)/../glfw-3.3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall '-std=gnu99'  ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"'-std=gnu99'",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build/src";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -697,16 +654,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -717,16 +679,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -737,16 +704,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -757,16 +729,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -777,16 +754,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = uninstall;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -806,16 +788,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -837,19 +824,36 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/data/work/opengltest/glfw-3.3.2/include","/data/work/opengltest/glfw-3.3.2/src","/Users/playcrab/Downloads/glfw-3.3.2/build/src");
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../glfw-3.3.2/include",
+					"$(PROJECT_DIR)/../glfw-3.3.2/build/src",
+					"$(PROJECT_DIR)/../glfw-3.3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall '-std=gnu99'  ";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"'-std=gnu99'",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build/src";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -860,16 +864,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -880,16 +889,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -900,16 +914,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -922,19 +941,35 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/data/work/opengltest/glfw-3.3.2/include","/data/work/opengltest/glfw-3.3.2/src","/Users/playcrab/Downloads/glfw-3.3.2/build/src");
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../glfw-3.3.2/include",
+					"$(PROJECT_DIR)/../glfw-3.3.2/build/src",
+					"$(PROJECT_DIR)/../glfw-3.3.2/src",
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = "   -fPIC -Wall '-std=gnu99'  ";
+				OTHER_CFLAGS = (
+					"-fPIC",
+					"-Wall",
+					"'-std=gnu99'",
+				);
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build/src";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build/src";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -945,16 +980,21 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/playcrab/Downloads/glfw-3.3.2/build";
+				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
