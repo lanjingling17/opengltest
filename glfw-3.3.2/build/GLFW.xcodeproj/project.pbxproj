@@ -499,8 +499,9 @@
 		0CEF2145B3914109B5CBA66A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SDKROOT = macosx;
 				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 			};
 			name = MinSizeRel;
@@ -775,8 +776,9 @@
 		7C843B62DE2645AD90EA6637 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SDKROOT = macosx;
 				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 			};
 			name = Release;
@@ -809,8 +811,9 @@
 		89CC67A8DE0F475F8C90F1E3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SDKROOT = macosx;
 				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 			};
 			name = RelWithDebInfo;
@@ -1001,8 +1004,9 @@
 		EED175D136BC4EEDB3DB05D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SDKROOT = macosx;
 				SYMROOT = "$(PROJECT_DIR)/../glfw-3.3.2/build";
 			};
 			name = Debug;
