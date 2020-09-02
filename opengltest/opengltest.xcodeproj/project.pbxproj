@@ -7,17 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680AC2DC24CC4697007E4575 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 680AC2DB24CC4692007E4575 /* glad.c */; };
 		6814F7C024CC2F9F003038FC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7BF24CC2F9F003038FC /* OpenGL.framework */; };
 		6814F7C224CC2FCF003038FC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C124CC2FCF003038FC /* Cocoa.framework */; };
 		6814F7C424CC2FFF003038FC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C324CC2FFF003038FC /* IOKit.framework */; };
 		6814F7C624CC300A003038FC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C524CC300A003038FC /* CoreVideo.framework */; };
 		6814F7C824CC316B003038FC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F7C724CC316B003038FC /* GLUT.framework */; };
 		681E2FB524CC2C9A00CA45C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 681E2FB424CC2C9A00CA45C5 /* main.cpp */; };
-		68748DA424FBA90500630457 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 68748DA324FBA90500630457 /* glad.c */; };
 		6876B93B24CF1931003807C0 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 681E2FC424CC2CAD00CA45C5 /* libglfw3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		680AC29724CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DC2AD4737A04D06B3737764;
+			remoteInfo = boing;
+		};
+		680AC29924CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 416D746CC36C4D94A95C9DA2;
+			remoteInfo = clipboard;
+		};
+		680AC29B24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DE6B64CD00E49689BC2E2B2;
+			remoteInfo = cursor;
+		};
+		680AC29D24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5C0DC7898844462B6F47211;
+			remoteInfo = empty;
+		};
+		680AC29F24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A05F41D4CEB48BA9A9F98B3;
+			remoteInfo = events;
+		};
+		680AC2A124CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC988B02D46C4543A5732E57;
+			remoteInfo = gamma;
+		};
+		680AC2A324CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 238B014EDEDF477B9E8EF79E;
+			remoteInfo = gears;
+		};
+		680AC2A524CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FAB9D87951F4519B439F908;
+			remoteInfo = glfwinfo;
+		};
+		680AC2A724CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B77C0BF63B494781A33B3117;
+			remoteInfo = heightmap;
+		};
+		680AC2A924CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14B5D5F56D40460F91D7628C;
+			remoteInfo = icon;
+		};
+		680AC2AB24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 269DD87992984F8EB9F81DD8;
+			remoteInfo = iconify;
+		};
+		680AC2AD24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 99A56D998C114606BB3CD981;
+			remoteInfo = inputlag;
+		};
+		680AC2AF24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8025DAD1F93B48CEB111DC83;
+			remoteInfo = joysticks;
+		};
+		680AC2B124CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42A068B376AF42E38F4E8C29;
+			remoteInfo = monitors;
+		};
+		680AC2B324CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9EC7D492A92B474A910B4FC3;
+			remoteInfo = msaa;
+		};
+		680AC2B524CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 67F8A5B7044F4E7788636A69;
+			remoteInfo = offscreen;
+		};
+		680AC2B724CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B110580D2AB4DE4B5DE2586;
+			remoteInfo = opacity;
+		};
+		680AC2B924CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1ADD59136B9E46F6B77493C5;
+			remoteInfo = particles;
+		};
+		680AC2BB24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9E7D5A78B4164B16B199BB9E;
+			remoteInfo = reopen;
+		};
+		680AC2BD24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1D6ED86878A4A23B96B31C3;
+			remoteInfo = sharing;
+		};
+		680AC2BF24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5E2F2E0C0E54DA2B9FEB6D6;
+			remoteInfo = simple;
+		};
+		680AC2C124CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F09FD9905824735866FD920;
+			remoteInfo = splitview;
+		};
+		680AC2C324CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BA5B9530D2C46559DE169AE;
+			remoteInfo = tearing;
+		};
+		680AC2C524CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AADEA6C5035B4927B22D840B;
+			remoteInfo = threads;
+		};
+		680AC2C724CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E5D79DD13E7E48FFBC886CB9;
+			remoteInfo = timeout;
+		};
+		680AC2C924CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E26F948E89EA4E2A9D95720E;
+			remoteInfo = title;
+		};
+		680AC2CB24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EF796CD85FEA4A878E33B95E;
+			remoteInfo = "triangle-vulkan";
+		};
+		680AC2CD24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7DD64160AB1341FE8CE49AF7;
+			remoteInfo = wave;
+		};
+		680AC2CF24CC43B1007E4575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02E222F98F00479E8305DD0C;
+			remoteInfo = windows;
+		};
 		6814F7CC24CC35BE003038FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */;
@@ -47,6 +250,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		680AC2D724CC4691007E4575 /* khrplatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
+		680AC2D924CC4691007E4575 /* glad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
+		680AC2DB24CC4692007E4575 /* glad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		6814F7BF24CC2F9F003038FC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6814F7C124CC2FCF003038FC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6814F7C324CC2FFF003038FC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -56,11 +262,6 @@
 		681E2FB124CC2C9A00CA45C5 /* opengltest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengltest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681E2FB424CC2C9A00CA45C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		681E2FBB24CC2CAD00CA45C5 /* GLFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GLFW.xcodeproj; path = "../glfw-3.3.2/build/GLFW.xcodeproj"; sourceTree = "<group>"; };
-		68748D9724FA4EF900630457 /* Shader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
-		68748D9824FA4EF900630457 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
-		68748DA324FBA90500630457 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
-		68748DA724FBA93700630457 /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
-		68748DA924FBA93700630457 /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
 		6876B93824CF0E32003807C0 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +282,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		680AC2D524CC4691007E4575 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				680AC2D624CC4691007E4575 /* KHR */,
+				680AC2D824CC4691007E4575 /* glad */,
+			);
+			name = include;
+			path = ../../../../../Users/playcrab/Downloads/glad/include;
+			sourceTree = "<group>";
+		};
+		680AC2D624CC4691007E4575 /* KHR */ = {
+			isa = PBXGroup;
+			children = (
+				680AC2D724CC4691007E4575 /* khrplatform.h */,
+			);
+			path = KHR;
+			sourceTree = "<group>";
+		};
+		680AC2D824CC4691007E4575 /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				680AC2D924CC4691007E4575 /* glad.h */,
+			);
+			path = glad;
+			sourceTree = "<group>";
+		};
+		680AC2DA24CC4692007E4575 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				680AC2DB24CC4692007E4575 /* glad.c */,
+			);
+			name = src;
+			path = ../../../../../Users/playcrab/Downloads/glad/src;
+			sourceTree = "<group>";
+		};
 		681E2FA824CC2C9A00CA45C5 = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +338,8 @@
 		681E2FB324CC2C9A00CA45C5 /* opengltest */ = {
 			isa = PBXGroup;
 			children = (
-				68748DA524FBA93700630457 /* include */,
-				68748DA224FBA90500630457 /* src */,
-				68748D9624FA4EF900630457 /* util */,
+				680AC2D524CC4691007E4575 /* include */,
+				680AC2DA24CC4692007E4575 /* src */,
 				681E2FB424CC2C9A00CA45C5 /* main.cpp */,
 			);
 			path = opengltest;
@@ -113,7 +348,36 @@
 		681E2FBC24CC2CAD00CA45C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				680AC29824CC43B1007E4575 /* boing */,
+				680AC29A24CC43B1007E4575 /* clipboard */,
+				680AC29C24CC43B1007E4575 /* cursor */,
+				680AC29E24CC43B1007E4575 /* empty */,
+				680AC2A024CC43B1007E4575 /* events */,
+				680AC2A224CC43B1007E4575 /* gamma */,
+				680AC2A424CC43B1007E4575 /* gears */,
 				681E2FC424CC2CAD00CA45C5 /* libglfw3.a */,
+				680AC2A624CC43B1007E4575 /* glfwinfo */,
+				680AC2A824CC43B1007E4575 /* heightmap */,
+				680AC2AA24CC43B1007E4575 /* icon */,
+				680AC2AC24CC43B1007E4575 /* iconify */,
+				680AC2AE24CC43B1007E4575 /* inputlag */,
+				680AC2B024CC43B1007E4575 /* joysticks */,
+				680AC2B224CC43B1007E4575 /* monitors */,
+				680AC2B424CC43B1007E4575 /* msaa */,
+				680AC2B624CC43B1007E4575 /* offscreen */,
+				680AC2B824CC43B1007E4575 /* opacity */,
+				680AC2BA24CC43B1007E4575 /* particles */,
+				680AC2BC24CC43B1007E4575 /* reopen */,
+				680AC2BE24CC43B1007E4575 /* sharing */,
+				680AC2C024CC43B1007E4575 /* simple */,
+				680AC2C224CC43B1007E4575 /* splitview */,
+				680AC2C424CC43B1007E4575 /* tearing */,
+				680AC2C624CC43B1007E4575 /* threads */,
+				680AC2C824CC43B1007E4575 /* timeout */,
+				680AC2CA24CC43B1007E4575 /* title */,
+				680AC2CC24CC43B1007E4575 /* triangle-vulkan */,
+				680AC2CE24CC43B1007E4575 /* wave */,
+				680AC2D024CC43B1007E4575 /* windows */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,48 +394,6 @@
 				6814F7BF24CC2F9F003038FC /* OpenGL.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		68748D9624FA4EF900630457 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				68748D9724FA4EF900630457 /* Shader.cpp */,
-				68748D9824FA4EF900630457 /* Shader.hpp */,
-			);
-			path = util;
-			sourceTree = "<group>";
-		};
-		68748DA224FBA90500630457 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				68748DA324FBA90500630457 /* glad.c */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		68748DA524FBA93700630457 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				68748DA624FBA93700630457 /* KHR */,
-				68748DA824FBA93700630457 /* glad */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		68748DA624FBA93700630457 /* KHR */ = {
-			isa = PBXGroup;
-			children = (
-				68748DA724FBA93700630457 /* khrplatform.h */,
-			);
-			path = KHR;
-			sourceTree = "<group>";
-		};
-		68748DA824FBA93700630457 /* glad */ = {
-			isa = PBXGroup;
-			children = (
-				68748DA924FBA93700630457 /* glad.h */,
-			);
-			path = glad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +456,228 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		680AC29824CC43B1007E4575 /* boing */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = boing;
+			path = boing.app;
+			remoteRef = 680AC29724CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC29A24CC43B1007E4575 /* clipboard */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = clipboard;
+			remoteRef = 680AC29924CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC29C24CC43B1007E4575 /* cursor */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = cursor;
+			remoteRef = 680AC29B24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC29E24CC43B1007E4575 /* empty */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = empty;
+			path = empty.app;
+			remoteRef = 680AC29D24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2A024CC43B1007E4575 /* events */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = events;
+			remoteRef = 680AC29F24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2A224CC43B1007E4575 /* gamma */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = gamma;
+			path = gamma.app;
+			remoteRef = 680AC2A124CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2A424CC43B1007E4575 /* gears */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = gears;
+			path = gears.app;
+			remoteRef = 680AC2A324CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2A624CC43B1007E4575 /* glfwinfo */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = glfwinfo;
+			remoteRef = 680AC2A524CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2A824CC43B1007E4575 /* heightmap */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = heightmap;
+			path = heightmap.app;
+			remoteRef = 680AC2A724CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2AA24CC43B1007E4575 /* icon */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = icon;
+			path = icon.app;
+			remoteRef = 680AC2A924CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2AC24CC43B1007E4575 /* iconify */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = iconify;
+			remoteRef = 680AC2AB24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2AE24CC43B1007E4575 /* inputlag */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = inputlag;
+			path = inputlag.app;
+			remoteRef = 680AC2AD24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2B024CC43B1007E4575 /* joysticks */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = joysticks;
+			path = joysticks.app;
+			remoteRef = 680AC2AF24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2B224CC43B1007E4575 /* monitors */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = monitors;
+			remoteRef = 680AC2B124CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2B424CC43B1007E4575 /* msaa */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = msaa;
+			remoteRef = 680AC2B324CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2B624CC43B1007E4575 /* offscreen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = offscreen;
+			remoteRef = 680AC2B524CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2B824CC43B1007E4575 /* opacity */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = opacity;
+			path = opacity.app;
+			remoteRef = 680AC2B724CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2BA24CC43B1007E4575 /* particles */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = particles;
+			path = particles.app;
+			remoteRef = 680AC2B924CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2BC24CC43B1007E4575 /* reopen */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = reopen;
+			remoteRef = 680AC2BB24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2BE24CC43B1007E4575 /* sharing */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = sharing;
+			path = sharing.app;
+			remoteRef = 680AC2BD24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2C024CC43B1007E4575 /* simple */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = simple;
+			path = simple.app;
+			remoteRef = 680AC2BF24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2C224CC43B1007E4575 /* splitview */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = splitview;
+			path = splitview.app;
+			remoteRef = 680AC2C124CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2C424CC43B1007E4575 /* tearing */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = tearing;
+			path = tearing.app;
+			remoteRef = 680AC2C324CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2C624CC43B1007E4575 /* threads */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = threads;
+			path = threads.app;
+			remoteRef = 680AC2C524CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2C824CC43B1007E4575 /* timeout */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = timeout;
+			path = timeout.app;
+			remoteRef = 680AC2C724CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2CA24CC43B1007E4575 /* title */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = title;
+			path = title.app;
+			remoteRef = 680AC2C924CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2CC24CC43B1007E4575 /* triangle-vulkan */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "triangle-vulkan";
+			remoteRef = 680AC2CB24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2CE24CC43B1007E4575 /* wave */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = wave;
+			path = wave.app;
+			remoteRef = 680AC2CD24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		680AC2D024CC43B1007E4575 /* windows */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			name = windows;
+			path = windows.app;
+			remoteRef = 680AC2CF24CC43B1007E4575 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		681E2FC424CC2CAD00CA45C5 /* libglfw3.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -248,8 +692,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680AC2DC24CC4697007E4575 /* glad.c in Sources */,
 				681E2FB524CC2C9A00CA45C5 /* main.cpp in Sources */,
-				68748DA424FBA90500630457 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
