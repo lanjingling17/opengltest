@@ -39,6 +39,23 @@ public:
 
 		return basePath+path;
 	}
+    
+    static std::string getShaderPath(const std::string path){
+        // char *buffer;
+        // //也可以将buffer作为输出参数
+        // if((buffer = getcwd(NULL, 0)) == NULL)
+        // {
+        //     perror("getcwd error");
+        // }
+        // else
+        // {
+     //        printf("ssssssssssssss%s\n", buffer);
+        //     // free(buffer);
+        // }
+        string basePath = "/data/work/opengltest/opengltest/opengltest/util/";
+
+        return basePath+path;
+    }
 	
 };
 

@@ -20,6 +20,9 @@ private:
 	bool init();
     void update();
     Shader _shader;
+    unsigned int VAO;
+    unsigned int texture;
+    unsigned int texture1;
 public:
     void render();
 };
