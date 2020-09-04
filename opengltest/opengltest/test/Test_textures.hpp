@@ -23,8 +23,10 @@ private:
     unsigned int VAO;
     unsigned int texture;
     unsigned int texture1;
+    float mixValue;
 public:
     void render();
+    void processInput(std::string key);
 };
 
 #endif /* Test_textures_hpp */

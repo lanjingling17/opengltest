@@ -13,6 +13,7 @@
 
 Test_textures::Test_textures():
 _shader(FileUtils::getShaderPath("shader_textures.vs").c_str(),FileUtils::getShaderPath("shader_textures.fs").c_str()){
+    mixValue = 1;
 	init();
 }
 
@@ -21,11 +22,17 @@ Test_textures::~Test_textures(){
 }
 
 bool Test_textures::init(){
-	float vertices[] = {
-		-0.5f,0.5f,0,  1,1,1,1,  0,1,
-		0.5f,0.5f,0,   1,1,1,1,  1,1,
+	// float vertices[] = {
+	// 	-0.5f,0.5f,0,  1,1,1,1,  0.45,0.55,
+	// 	0.5f,0.5f,0,   1,1,1,1,  0.55,0.55,
+ //        0.5f,-0.5f,0,  1,1,1,1,  0.55,0.45,
+	// 	-0.5f,-0.5f,0, 1,1,1,1,  0.45,0.45,
+ //    };
+    float vertices[] = {
+        -0.5f,0.5f,0,  1,1,1,1,  0,1,
+        0.5f,0.5f,0,   1,1,1,1,  1,1,
         0.5f,-0.5f,0,  1,1,1,1,  1,0,
-		-0.5f,-0.5f,0, 1,1,1,1,  0,0,
+        -0.5f,-0.5f,0, 1,1,1,1,  0,0,
     };
 	unsigned int indeics[] = {
 		0,1,3,
@@ -120,7 +127,7 @@ void Test_textures::render(){
 
 
     _shader.use();
-    
+    _shader.setFloat("mixValue", mixValue);
     
     
     glBindVertexArray(VAO);
@@ -128,7 +135,21 @@ void Test_textures::render(){
     glDrawElements(GL_TRIANGLES,6,GL_UNSIGNED_INT,0);
 }
 
-
+void Test_textures::processInput(std::string key){
+    printf("%s\n",key.c_str() );
+    if (key == "GLFW_KEY_UP")
+    {
+        mixValue += 0.001f; // change this value accordingly (might be too slow or too fast based on system hardware)
+        if(mixValue >= 1.0f)
+            mixValue = 1.0f;
+    }
+    if (key == "GLFW_KEY_DOWN")
+    {
+        mixValue -= 0.001f; // change this value accordingly (might be too slow or too fast based on system hardware)
+        if (mixValue <= 0.0f)
+            mixValue = 0.0f;
+    }
+}
 
 
 

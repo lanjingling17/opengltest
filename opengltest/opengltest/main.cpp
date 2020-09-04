@@ -23,6 +23,8 @@ void error_callback(int error, const char* description)
     fprintf(stderr, "Error: %s\n", description);
 }
 
+Test_textures * test1;
+
 int main()
 {
     // glfw: initialize and configure
@@ -191,7 +193,7 @@ int main()
     
 //    glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
     
-    Test_textures * test1 = new Test_textures();
+    test1 = new Test_textures();
     
     // render loop
     // -----------
@@ -246,6 +248,14 @@ void processInput(GLFWwindow *window)
 {
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+     if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
+     {
+         test1->processInput("GLFW_KEY_UP");
+     }
+     if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
+     {
+         test1->processInput("GLFW_KEY_DOWN");
+     }
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
